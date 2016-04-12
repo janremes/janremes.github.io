@@ -5,56 +5,69 @@
     <meta charset="utf-8">
     <title>#GETUNSTUCK</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/css/normalize.css">
-    <!-- Latest compiled and minified CSS -->
+    <!--<link rel="stylesheet" href="assets/css/normalize.css">
+   Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
     crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/main.css">
     <link href='https://fonts.googleapis.com/css?family=Nunito:300' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" href="assets/ico/favicon.ico" type="image/x-icon">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700,500' rel='stylesheet' type='text/css'>
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+
 </head>
 
 <body>
 
     <div id="video_title">
 
-        <p class="main_title">3 NEW VIDEOS EVERY DAY</p>
-        <br/>
-        <span class="main_subtitle">Subscribe to get 3 new inspirational videos every morning in your inbox </span>
+        <p class="main_title">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                <defs>
+                    <linearGradient id="grad1" x1="0%" y1="50%" x2="100%" y2="0%">
+                        <stop offset="0%" style="stop-color:#00ADD2;stop-opacity:1" />
+                        <stop offset="100%" style="stop-coloR:#2EFFA4;stop-opacity:1" />
+                    </linearGradient>
+                </defs>
+                <text fill="url(#grad1)" font-size="35" font-family="Roboto" font-weight="700" x="0" y="50">
+                    3 NEW VIDEOS EVERY DAY</text>
+            </svg>
+        </p>
+        <p class="main_subtitle">Subscribe to get 3 new inspirational videos every morning in your inbox </p>
 
 
     </div>
 
+    <!-- Begin MailChimp Signup Form -->
 
+    <div id="mc_embed_signup">
+        <form action="//strv.us13.list-manage.com/subscribe/post?u=f253fa5a7f5a10fa1d966df85&amp;id=35bf04511c" method="post" id="mc-embedded-subscribe-form"
+        name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
 
-    <div class="container">
-        <header class="row">
-            <div class="col-md-8">
-                <div class="header__logo"></div>
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your Email" required>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                    <input type="text" name="b_f253fa5a7f5a10fa1d966df85_35bf04511c" tabindex="-1" value="">
+                </div>
+                <div class="clear">
+                    <input type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe" class="button">
+                </div>
             </div>
-            <div class="col-md-4">
-                <p>Share with friends</p>
-            </div>
-        </header>
-        <div class="row">
-            <div class="col-md-4">
-                <p>Upcoming Tomorrow</p>
-            </div>
-            <div class="col-md-8">
-                <p>Videos</p>
-            </div>
-        </div>
+        </form>
+    </div>
 
-        <div id="knik_frame">
-            <script async src="https://d36hc0p18k1aoc.cloudfront.net/public/js/modules/tintembed.js"></script>
-            <div class="tintup" data-id="branko1" data-columns="" data-expand="true" data-infinitescroll="true" data-personalization-id="755971"
-            style="height:500px;width:100%;"></div>
-        </div>
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
-        crossorigin="anonymous"></script>
-        <script src="assets/frontend/js/app.js"></script>
+    <!--End mc_embed_signup-->
+
+    <div id="knik_frame">
+        <script async src="https://d36hc0p18k1aoc.cloudfront.net/public/js/modules/tintembed.js"></script>
+        <div class="tintup" data-id="branko1" data-columns="" data-expand="true" data-infinitescroll="true" data-personalization-id="755971"
+        style="height:500px;width:100%;"></div>
+    </div>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+    crossorigin="anonymous"></script>
+    <script src="assets/frontend/js/app.js"></script>
 </body>
 
 </html>
