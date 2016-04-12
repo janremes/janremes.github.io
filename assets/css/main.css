@@ -1,0 +1,11 @@
+body {
+    background-color: RGB(21, 25, 29);
+}
+
+
+#knik_frame {
+    margin-left: 10%;
+    margin-right:10%;
+
+    min-height: 100px;
+}
