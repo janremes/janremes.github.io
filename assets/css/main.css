@@ -200,6 +200,11 @@ p.main_title {
         margin-right: 20px !important;
         margin-left:20px !important;
     }
+    
+    .upcoming-user__wrapper {
+        margin-bottom:20px;
+    }
+    
 
 }
 
