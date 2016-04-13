@@ -1,6 +1,75 @@
 body {
-    background-color: RGB(21, 25, 29);
+    background-color: #15191D;
 }
+
+header {
+    background-color: #212836;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.brand__logo {
+    width: 750px;
+    height: 100px;
+    background-image: url("../img/logo.png");
+    width: 100%;
+    max-width: 800px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 60px 25px 10px;
+}
+
+.brand__subtext {
+    color: RGBA(255,255,255, 0.4);
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 25px;
+}
+
+.social__wrapper {
+    margin-left: 60px;
+}
+
+.social__title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: 70px 0px 10px;
+}
+
+.social__facebook {
+    width: 45px;
+    height: 45px;
+    background-image: url("../img/facebook.png");
+    width: 100%;
+    max-width: 45px;
+    background-size: cover;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.social__twitter {
+    width: 45px;
+    height: 45px;
+    background-image: url("../img/twitter.png");
+    width: 100%;
+    max-width: 45px;
+    background-size: cover;
+    display: inline-block;
+}
+
+.subheader {
+    background-color: #212836;
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: RGBA(255,255,255, 0.2);
+}
+
+.upcoming-text__wrapper {
+    margin-top: 20px;
+}
+
 
 svg {
     min-width: 424px;
@@ -15,6 +84,11 @@ p.main_title {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 2.4em;
+    
+}
+
+#video_title {
+    padding-top: 20px;
 }
 
 p.main_subtitle {
