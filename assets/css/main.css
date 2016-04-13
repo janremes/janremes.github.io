@@ -9,14 +9,15 @@ header {
 }
 
 .brand__logo {
-    width: 750px;
+    /*width: 750px;*/
     height: 100px;
     background-image: url("../img/logo.png");
     width: 100%;
     max-width: 800px;
     background-size: contain;
     background-repeat: no-repeat;
-    margin: 30px 25px 10px;
+    background-position: center;
+    margin: 30px auto 10px;
 }
 
 textarea:focus, input:focus{
@@ -27,7 +28,12 @@ textarea:focus, input:focus{
     color: RGBA(255,255,255, 0.4);
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
-    margin-left: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px 0px;
+    width: 80%;
+    text-align: center;
+    
 }
 
 .social__wrapper {
