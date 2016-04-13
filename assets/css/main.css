@@ -62,10 +62,38 @@ header {
 .subheader {
     background-color: #212836;
     border-top-style: solid;
-    border-width: 1px;
+    border-width: 0.120em;
     border-color: RGBA(255,255,255, 0.2);
 }
 
 .upcoming-text__wrapper {
+}
+
+.upcoming-users__wrapper {
     margin-top: 20px;
+    margin-left: 25px;
+}
+
+.upcoming-user__wrapper {
+    margin-right: 40px;
+}
+
+.upcoming-users__text {
+    margin-left: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.img-circle {
+    border-radius: 50%;
+    border: 3px solid;
+    border-color: #FFFFFF;
+    width: 70px;
+    max-width: 100px;
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
 }
