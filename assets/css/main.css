@@ -72,12 +72,47 @@ textarea:focus, input:focus{
 .subheader {
     background-color: #212836;
     border-top-style: solid;
-    border-width: 1px;
+    border-width: 0.120em;
     border-color: RGBA(255,255,255, 0.2);
 }
 
 .upcoming-text__wrapper {
+}
+
+.upcoming-users__wrapper {
     margin-top: 20px;
+    margin-left: 25px;
+    min-height: 90px;
+}
+
+p.upcoming-users__text {
+    position:absolute;
+    top:10px;
+    left:50px;
+}
+
+.upcoming-user__wrapper {
+    position:relative;
+}
+
+.upcoming-users__text {
+    margin-left: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.img-circle {
+    border-radius: 50%;
+    border: 3px solid;
+    border-color: #FFFFFF;
+    width: 70px;
+    max-width: 100px;
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
 }
 
 .upcoming__title {
@@ -87,6 +122,16 @@ textarea:focus, input:focus{
     font-size: 22pt;
     padding:0;
     margin-left: 25px;
+    margin-top:20px;
+}
+
+span.name {
+     font-weight: 300;
+    font-size: 15pt;
+}
+
+span.role {
+    color: RGBA(255,255,255, 0.7);
 }
 
 svg.email_subscription {
