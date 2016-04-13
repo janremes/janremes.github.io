@@ -70,10 +70,22 @@ header {
     margin-top: 20px;
 }
 
+.upcoming__title {
+    color:white;
+     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 22pt;
+    padding:0;
+    margin-left: 25px;
+}
 
-svg {
+svg.email_subscription {
     min-width: 424px;
     max-height: 50px;
+}
+
+svg.tomorrow {
+    max-height: 45px;
 }
 
 p.main_title {
@@ -117,7 +129,6 @@ p.main_subtitle {
      font: 14px 'Roboto', sans-serif;
      width: 100%;
      padding-bottom: 40px;
-     
 }
 
 #mc_embed_signup .button {
